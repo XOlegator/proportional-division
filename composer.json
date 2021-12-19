@@ -1,0 +1,23 @@
+{
+  "name": "xolegator/proportional-division",
+  "description": "A resource is divided among n partners",
+  "minimum-stability": "stable",
+  "license": [
+    "LGPL-2.1",
+    "GPL-3.0+"
+  ],
+  "authors": [
+    {
+      "name": "Oleg Ekhlakov",
+      "email": "oleg@ekhlakovy.ru"
+    }
+  ],
+  "require": {
+    "php": ">=7.1"
+  },
+  "autoload": {
+    "psr-4":{
+      "Xolegator\\ProportionalDivision\\": "src/"
+    }
+  }
+}
